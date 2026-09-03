@@ -11,12 +11,14 @@ function buscarProduto(id) {
 async function mostrarProduto() {
     
     try {
-       const produto = await buscarProduto(10)
+       const produto = await buscarProduto(99)
     console.log(`id: ${produto.id}, nome: ${produto.nome}`)
     } catch (erro) {
         console.log(`Erro: ${erro}`)
     }
 }
+
+console.log("Testando GitHub!");
  
 
 mostrarProduto()
