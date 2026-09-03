@@ -17,8 +17,6 @@ async function mostrarProduto() {
         console.log(`Erro: ${erro}`)
     }
 }
-
-console.log("Testando GitHub!");
  
 
 mostrarProduto()
